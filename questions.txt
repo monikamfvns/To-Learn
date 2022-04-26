@@ -1,0 +1,6 @@
+1. What is a server?
+2. What is jdk and jre ?
+3. Client server architecture
+4. HTTP and TCP protocol? 
+5. Deploying tomcat server - what is port ? How to run tomcat at specific port ?
+6. Interfaces in Java ?
