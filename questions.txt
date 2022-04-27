@@ -6,7 +6,7 @@
 
 
 2. What is jdk and jre ?
-  jre loads eh classes rewuired from libraries. jdk provides debugger. jre is inside jdk.
+  jre loads the classes required from libraries. jdk provides debugger. jre is inside jdk.
 
 
 
@@ -21,7 +21,7 @@
   
   
 4. HTTP and TCP protocol? 
-  HTTP is application layer protocol. it's hypertext. contains GET, POST kinda things.
+  HTTP is application layer protocol. it's hypertext. contains GET, POST etc.. methods.
   TCP is transport layer. it converts the data into smaller packets and sends it. it does handshakes, so we know whether the data isreceived by the server. it does error correction. 
 
 
