@@ -1,37 +1,31 @@
 1. What is a server?
   server serves the content requested by the client. web server serves web content. 
 
-
-
-
-
 2. What is jdk and jre ?
-  jre loads the classes required from libraries. jdk provides debugger. jre is inside jdk.
-
-
-
-
+  jre loads the classes required from libraries. jre is inside jdk.
+  
+  JDK is an implementation of any one of the below given Java Platforms released by Oracle corporation:
+    Standard Edition Java Platform
+    Enterprise Edition Java Platform
+    Micro Edition Java Platform
 
 3. Client server architecture
   user enters the url in web browser
   web browser sends request to DNS an gets the IP of the website
   web browser sends the requests to the server.
-  server processes that request and prepares the response.
+  server process that request and prepares the response.
   response is sent to client.
   
   
 4. HTTP and TCP protocol? 
-  HTTP is application layer protocol. it's hypertext. contains GET, POST etc.. methods.
+  HTTP is a protocol for fetching resources such as HTML documents. It is the foundation of any data exchange on the Web and it is a client-server protocol, which means requests are initiated by the recipient, usually the Web browser. A complete document is reconstructed from the different sub-documents fetched, for instance, text, layout description, images, videos, scripts, and more.
   TCP is transport layer. it converts the data into smaller packets and sends it. it does handshakes, so we know whether the data isreceived by the server. it does error correction. 
 
 
-
-
 5. Deploying tomcat server - what is port ? How to run tomcat at specific port ?
-  in a computer several programs will be running, in order to find the required progrma a port number is assigned to it.
+  in a computer several programs will be running, in order to find the required program a port number is assigned to it.
   to run tomcat at specific port , go to server.xm and change the port number, restart the sever/
 
 
-
 6. Interfaces in Java ?
-  interface contains abstract methods and static variables. it could be implemented bu calsses and that classes provide method body. it is used to achieve multiple inheritance witch means same interface could be instantiated using any one of it's child class.
+  interface contains abstract methods and static variables. it could be implemented by calsses and that classes provides method body. it is used to achieve multiple inheritance witch means same interface could be instantiated using any one of it's child class.
