@@ -1,7 +1,57 @@
 1. What is a filter ? 
+what i understand - It is invoked in preprocessing and postprocessing of a request. It literally is a filter. Why is there a need for a filter in the first place? Well, a request can come from anywhere around the globe. We need a system that filters out these requests and only allows required requests to go through the server. This may help to reduce malicious attacks. Because not every request is a good one.
+
+
+
+
+
 2. Why do we need an entry in web.xml for a new url to an actionclass ? 
+  so that it goes through StrutsPrepareAndExecuteFilter ???..not sure
+
+
+
+
+
+
 3. What are the files that you could relate to security filter ? 
+  security-rb.xml, security-regex.xml
+
+
+
+
+
+
 4. List things handled by Security Framework that you understand. 
+
+
+
+
+
+
+
 5. What is MIME type ? Do you find any handling w.r.t MIME type in our configuration files ? 
+MIME - Multipurpose Internet Mail Extensions
+
+A MIME type is a label used to identify a type of data. It is used so software can know how to handle the data.
+
+It is most commonly find them in the headers of HTTP messages (to describe the content that an HTTP server is responding with or the formatting of the data that is being POSTed in a request) and in email headers (to describe the message format and attachments).
+
+    <content-types>
+        <content-type name="image" content-types="image/gif|image/jpg|image/jpeg|image/bmp|image/svg|image/png"/>
+        <content-type name="delta" content-types="application/x-unknown-mime-type"/>
+        <content-type name="fontdata" content-types="application/x-unknown-mime-type"/>
+        <content-type name="projectdatazip" content-types="application/zip"/>
+        <content-type name="csv" content-types="application/x-unknown-mime-type|application/csv|text/csv|text/comma-separated-values|text/plain" />
+    </content-types>  --is it this one..?
+
+
+
+
 6. How are our configuration/property files initialized ? 
+  they are loaded when server is started in ZohoStartwithService.java
+
+
+
+
 7. Where are our table defined in our source code?
+  data-dictionary.xml
