@@ -7,6 +7,10 @@ what i understand - It is invoked in preprocessing and postprocessing of a reque
 
 2. Why do we need an entry in web.xml for a new url to an actionclass ? 
   so that it goes through StrutsPrepareAndExecuteFilter ???..not sure
+  
+A web application uses a deployment descriptor to initialize resources like filters and listeners. The web deployment descriptor is formatted as a XML document and named web.xml. Struts can either initialize its resources by scanning your classes using Java packages declared in this web.xml file, or you can have full control over the configuration via a configuration file, named struts.xml. These resources include action mappings, to direct input to server-side Action classes, and result types, to select output pages.
+
+
 
 
 
@@ -22,7 +26,7 @@ what i understand - It is invoked in preprocessing and postprocessing of a reque
 
 
 4. List things handled by Security Framework that you understand. 
-
+param count and type check
 
 
 
