@@ -1,0 +1,7 @@
+1. What is a filter ? 
+2. Why do we need an entry in web.xml for a new url to an actionclass ? 
+3. What are the files that you could relate to security filter ? 
+4. List things handled by Security Framework that you understand. 
+5. What is MIME type ? Do you find any handling w.r.t MIME type in our configuration files ? 
+6. How are our configuration/property files initialized ? 
+7. Where are our table defined in our source code?
